@@ -1,0 +1,263 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 100vw;
+    height: 100vh;
+    display: inline-block;
+    
+}
+.container{
+    width: 400px;
+    height: 400px;
+    border: 10px double rgba(12, 0, 0, 0.6);
+    border-radius: 50%;
+    margin:120px auto;
+    position: relative;
+    outline: 10px dashed rgba(0, 0, 240, 0.6);
+    box-shadow: 0 0 15px 10px rgb(9, 138, 161) ;
+}
+.circle-1{
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 50%;
+    bottom:50%;
+    left: 50%;
+    transform: translate(-50%,50%) rotate(0deg);
+    position: absolute;
+    animation: clock 1800s infinite linear;
+    background-color: black;
+}
+@keyframes clock {
+    0% {
+        transform: translate(-50%,50%) rotate(0deg);
+    }
+    100% {
+        transform: translate(-50%,50%) rotate(360deg);
+    }
+}
+.akrep{
+    width: 100px;
+    height: 12px;
+    position: absolute;
+    background-color: black;
+    left: 25px;
+    top:15px;
+    border-radius: 10px;
+}
+.circle-2{
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 50%;
+    bottom:50%;
+    left: 50%;
+    transform: translate(-50%,50%) rotate(0deg);
+    position: absolute;
+    animation: clock-2 360s infinite linear;
+    background-color: black;
+}
+@keyframes clock-2 {
+    0% {
+        transform: translate(-50%,50%) rotate(0deg);
+    }
+    100% {
+        transform: translate(-50%,50%) rotate(360deg);
+    }
+}
+.yelkovan{
+    width: 130px;
+    height: 10px;
+    position: absolute;
+    background-color: black;
+    left: 15px;
+    top:25px;
+    border-radius: 5px;
+}
+.circle-3{
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 50%;
+    bottom:50%;
+    left: 50%;
+    transform: translate(-50%,50%) rotate(0deg);
+    position: absolute;
+    animation: clock-3 6s infinite linear;
+    background-color: black;
+}
+@keyframes clock-3 {
+    0% {
+        transform: translate(-50%,50%) rotate(0deg);
+    }
+    100% {
+        transform: translate(-50%,50%) rotate(360deg);
+    }
+}
+.saniye{
+    width: 140px;
+    height: 8px;
+    position: absolute;
+    background-color: black;
+    left: 15px;
+    top:25px;
+    border-radius: 10px;
+}
+.oniki{
+    font-size: 52px;
+    font-weight: 600;
+    position: absolute;
+    left:50%;
+    padding:5px;
+    transform: translate(-50%);
+    font-family: 'Rubik Bubbles', cursive;
+    
+}
+.üç{
+    font-size: 52px;
+    font-weight: 600;
+    position: absolute;
+    right:0%;
+    top:50%;
+    padding: 5px;
+    transform: translate(-50%,-50%);
+    font-family: 'Rubik Bubbles', cursive;
+}
+.altı{
+    font-size: 52px;
+    font-weight: 600;
+    position: absolute;
+    left:50%;
+    bottom:0%;
+    padding: 5px;
+    transform: translate(-50%);
+    font-family: 'Rubik Bubbles', cursive;
+}
+.dokuz{
+    font-size: 52px;
+    font-weight: 600;
+    position: absolute;
+    left:0%;
+    top:50%;
+    padding: 5px;
+    transform: translate(50%,-50%);
+    font-family: 'Rubik Bubbles', cursive;
+}
+.marka{
+    font-size: 36px;
+    font-family: 'Rubik Bubbles', cursive;
+    font-style: italic;
+    color:rgba(240, 6, 6, 0.6);
+    position: absolute;
+    left: 50%;
+    top:25%;
+    transform: translate(-50%);
+    z-index: -1;
+
+}
+.bir{
+    font-size: 40px;
+    font-weight: 600;
+    position: absolute;
+    left:72%;
+    top:8%;
+    padding:5px;
+    transform: translate(-50%);
+    font-family: 'Rubik Bubbles', cursive;
+    color:grey;
+}
+.iki{
+    font-size: 40px;
+    font-weight: 600;
+    position: absolute;
+    left:85%;
+    top:22%;
+    padding:5px;
+    transform: translate(-50%);
+    font-family: 'Rubik Bubbles', cursive;
+    color:grey;
+}
+.dört{
+    font-size: 40px;
+    font-weight: 600;
+    position: absolute;
+    right:15%;
+    bottom:22%;
+    padding:5px;
+    transform: translate(50%);
+    font-family: 'Rubik Bubbles', cursive;
+    color:grey;
+}
+.beş{
+    font-size: 40px;
+    font-weight: 600;
+    position: absolute;
+    right:28%;
+    bottom:8%;
+    padding:5px;
+    transform: translate(50%);
+    font-family: 'Rubik Bubbles', cursive;
+    color:grey;
+}
+.yedi{
+    font-size: 40px;
+    font-weight: 600;
+    position: absolute;
+    left:28%;
+    bottom:8%;
+    padding:5px;
+    transform: translate(-50%);
+    font-family: 'Rubik Bubbles', cursive;
+    color:grey;
+}
+.sekiz{
+    font-size: 40px;
+    font-weight: 600;
+    position: absolute;
+    left:15%;
+    bottom:22%;
+    padding:5px;
+    transform: translate(-50%);
+    font-family: 'Rubik Bubbles', cursive;
+    color:grey;
+}
+.on{
+    font-size: 40px;
+    font-weight: 600;
+    position: absolute;
+    left:15%;
+    top:22%;
+    padding:5px;
+    transform: translate(-50%);
+    font-family: 'Rubik Bubbles', cursive;
+    color:grey;
+}
+.onbir{
+    font-size: 40px;
+    font-weight: 600;
+    position: absolute;
+    left:28%;
+    top:8%;
+    padding:5px;
+    transform: translate(-50%);
+    font-family: 'Rubik Bubbles', cursive;
+    color:grey;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600&family=Rubik+Bubbles&family=Square+Peg&display=swap');
+
+
+
+
+
+
+
+
+
+
+
+
+
